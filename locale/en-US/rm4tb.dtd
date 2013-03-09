@@ -1,0 +1,20 @@
+<!--DONT EDIT THIS NEXT LINE-->
+<!ENTITY rm4tb.ttl "RainMaker 4 TB">
+
+<!--Preferences -->
+<!ENTITY rm4tb.preferences.ttl "Preferences">
+<!ENTITY rm4tb.api_key.lbl "API Key">
+<!ENTITY rm4tb.privacy_set.lbl "Privacy Settings">
+<!ENTITY rm4tb.sendhash.lbl "Send hashes?">
+<!ENTITY rm4tb.sendhash.ttp "This prevents people being added to the database.">
+<!ENTITY rm4tb.dohttps.lbl "Use HTTPS">
+<!ENTITY rm4tb.dohttps.ttp "Send API calls over https instead of http">
+
+<!ENTITY rm4tb.cachedays.lbl "Cache Days">
+<!ENTITY rm4tb.cachedaystxt.lbl "Number of days to cache results. 0 to disable">
+
+<!ENTITY rm4tb.imagePref.lbl "Preferred Image Source">
+
+<!ENTITY rm4tb.instruct.lbl "API Key obtained automatically from www.fullcontact.com">
+<!ENTITY rm4tb.disclaim.lbl "All images are trademarks of their respective companies.">
+

@@ -1,0 +1,3 @@
+content   rm4tb   content/ 
+overlay   chrome://messenger/content/messenger.xul   chrome://rm4tb/content/rm4tb.xul appversion>=3.0
+locale	rm4tb	en-US	locale/en-US/

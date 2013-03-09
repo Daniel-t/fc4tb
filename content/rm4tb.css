@@ -1,0 +1,9 @@
+
+  .rap[status="on"] {
+    display: -moz-box
+  }
+
+  .rap {
+    display: none
+  }
+

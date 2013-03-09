@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+  -   Version: MPL 1.1/GPL 2.0/LGPL 2.1
+  -
+  - The contents of this file are subject to the Mozilla Public License Version
+  - 1.1 (the "License"); you may not use this file except in compliance with
+  - the License. You may obtain a copy of the License at
+  - http://www.mozilla.org/MPL/
+  - 
+  - Software distributed under the License is distributed on an "AS IS" basis,
+  - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+  - for the specific language governing rights and limitations under the
+  - License.
+  -
+  - The Original Code is Rapleaf 4 Thunderbird.
+  -
+  - The Initial Developer of the Original Code is
+  - Daniel Thomas.
+  - Portions created by the Initial Developer are Copyright (C) 2008
+  - the Initial Developer. All Rights Reserved.
+  -
+  - Contributor(s):
+  -
+  - Alternatively, the contents of this file may be used under the terms of
+  - either the GNU General Public License Version 2 or later (the "GPL"), or
+  - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+  - in which case the provisions of the GPL or the LGPL are applicable instead
+  - of those above. If you wish to allow use of your version of this file only
+  - under the terms of either the GPL or the LGPL, and not to allow others to
+  - use your version of this file under the terms of the MPL, indicate your
+  - decision by deleting the provisions above and replace them with the notice
+  - and other provisions required by the GPL or the LGPL. If you do not delete
+  - the provisions above, a recipient may use your version of this file under
+  - the terms of any one of the MPL, the GPL or the LGPL.
+  - 
+  - ***** END LICENSE BLOCK *****-->
+
+<?xml-stylesheet
+          href="chrome://rm4tb/content/rm4tb.css"
+          type="text/css"?> 
+
+  <overlay id="rm4tbOverlay" 
+          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	  
+ <stringbundleset id="stringbundleset">
+    <stringbundle id="strings_rm4tb" src="chrome://rm4tb/locale/rm4tb.properties"/>
+</stringbundleset>
+ 
+    <script type="application/x-javascript"
+            src="chrome://rm4tb/content/rm4tb.js" />
+    <hbox id="msgHeaderView">
+	    <image id="rainmaker-image" src="" insertbefore="msgHeaderViewDeck" maxwidth="100" maxheight="134"/>
+    </hbox>
+	<vbox id="messagepanebox">
+
+	    <toolbar id="rain-box" insertbefore="FindToolbar">
+			<popupset>
+			 <tooltip id="rm_tooltip" orient="vertical" style="background-color: #33DD00;">
+			 </tooltip>
+			</popupset>
+			
+			<statusbarpanel id="rm_rainmaker" class="statusbarpanel-iconic" src="chrome://rm4tb/content/images/fc_16.png" tooltip="rm_tooltip">
+			 <image src="chrome://rm4tb/content/images/fc_32.png" width="32" height="32"/>
+			 <label name="rm_l" value=""/>
+			 <label id="rm_name" value="FullContact for Thunderbird"/>
+			</statusbarpanel>
+			
+			<statusbarpanel id="rm_amazon" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/amazon.com.ico"/>
+			<statusbarpanel id="rm_bebo" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/bebo.com.ico"/>
+			<statusbarpanel id="rm_blackplanet" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/blackplanet.com.ico"/>
+			<statusbarpanel id="rm_classmates" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/classmates.com.ico"/>
+			<statusbarpanel id="rm_facebook" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/facebook.com.ico"/>
+			<statusbarpanel id="rm_flickr" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/flickr.com.ico"/>
+			<statusbarpanel id="rm_flixster" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/flixster.com.ico"/>
+			<statusbarpanel id="rm_friendster" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/friendster.com.ico"/>
+			<statusbarpanel id="rm_hi5" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/hi5.com.ico"/>
+			<statusbarpanel id="rm_linkedin" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/linkedin.com.ico"/>
+			<statusbarpanel id="rm_livejournal" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/livejournal.com.ico"/>
+			<statusbarpanel id="rm_multiply" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/multiply.com.ico"/>
+			<statusbarpanel id="rm_myspace" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/myspace.com.ico"/>
+			<statusbarpanel id="rm_plaxo" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/plaxo.com.ico"/>
+			<statusbarpanel id="rm_ringo" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/ringo.com.ico"/>
+			<statusbarpanel id="rm_tickle" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/tickle.com.ico"/>
+			<statusbarpanel id="rm_360" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/360.yahoo.com.ico"/>
+			<statusbarpanel id="rm_twitter" class="statusbarpanel-iconic rap" src="chrome://rm4tb/content/images/twitter.com.ico"/>
+
+		</toolbar>
+    </vbox>
+
+  </overlay>
+
+

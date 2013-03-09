@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://rm4tb/locale/rm4tb.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+            <prefwindow id="rm4tbPrefs" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="FullContact for Thunderbird">
+
+              <!-- Create a new pane (tab) for HP Scheduler. -->
+              <prefpane id="rm4tbPane"  
+			image="chrome://rm4tb/content/images/fc_16.png">
+
+                <!-- Intermediary between GUI and preferences system -->
+                <preferences>
+			<!-- see the next section for more information -->
+			<preference id="apiKey" 
+				name="extensions.rm4tb.key" 
+                                type="string" />
+			<preference id="do_hash" 
+				name="extensions.rm4tb.hash" 
+                                type="bool" />
+			<preference id="do_https" 
+				name="extensions.rm4tb.https" 
+                                type="bool" />
+			<preference id="cacheDays" 
+				name="extensions.rm4tb.cacheDays" 
+                                type="int" />
+			<preference id="imagePrefSrc" 
+				name="extensions.rm4tb.imagePrefSrc" 
+                                type="string" />
+
+		</preferences>
+		<hbox class="inset">
+		<label id="apiKeyLabel" value="&rm4tb.api_key.lbl;"/>
+		<textbox disabled="true" preference="apiKey" id="apiKeyField" size="40"/>
+		</hbox>
+		<!-- 
+		<vbox class="inset">
+			<label id="privSettingsLabel" value="&rm4tb.privacy_set.lbl;"/>
+			<checkbox label="&rm4tb.sendhash.lbl;" preference="do_hash" tooltiptext="&rm4tb.sendhash.ttp;"/>
+	  		<checkbox label="&rm4tb.dohttps.lbl;" preference="do_https" tooltiptext="&rm4tb.dohttps.ttp;"/>
+		</vbox>
+	 	-->
+	<vbox class="inset">
+	<hbox>
+		<label id="cacheLabel" value="&rm4tb.cachedays.lbl;"/>
+		<textbox preference="cacheDays" id="cacheDaysField" size="1" maxlength="2"/>
+	</hbox>
+	<label id="cacheDescLabel" value="&rm4tb.cachedaystxt.lbl;"/>
+	</vbox>
+	<vbox class="inset">
+		<hbox>
+		<label id="imageLabel" value="&rm4tb.imagePref.lbl;"/>
+		<menulist preference="imagePrefSrc" id="imagePrefField">
+			<menupopup>
+			      <menuitem label="FaceBook" value="facebook.com"/>
+			      <menuitem label="MySpace" value="myspace.com"/>
+			      <menuitem label="Bebo" value="bebo.com"/>
+			      <menuitem label="LinkedIn" value="linkedin.com"/>
+			      <menuitem label="Twitter" value="twitter.com"/>
+			</menupopup>
+		</menulist>
+		</hbox>
+	</vbox>
+	<vbox class="inset">
+		<label id="instructLabel" value="&rm4tb.instruct.lbl;"/>
+		<label id="disclaimLabel" value="&rm4tb.disclaim.lbl;"/>
+	</vbox>
+		<!-- GUI Elements... -->
+              </prefpane>
+      </prefwindow>
+

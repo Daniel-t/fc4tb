@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person>
+	<basics>
+		<name>Daniel Thomas</name>
+		<earliest_known_activity>Sat Jan 26 11:53:26 -0800 2008</earliest_known_activity>
+		<latest_known_activity>Wed Jan 30 01:51:52 -0800 2008</latest_known_activity>
+		<num_friends>0</num_friends>
+	</basics>
+	<memberships>
+		<primary>
+			<membership site="360.yahoo.com" exists="true"/>
+			<membership site="amazon.com" exists="true"/>
+			<membership site="bebo.com" exists="true"/>
+			<membership site="blackplanet.com" exists="true"/>
+			<membership site="facebook.com" exists="true"/>
+			<membership site="flickr.com" exists="true"/>
+			<membership site="flixster.com" exists="true"/>
+			<membership site="friendster.com" exists="true"/>
+			<membership site="hi5.com" exists="true"/>
+			<membership site="linkedin.com" exists="true" profile_url="http://www.linkedin.com/profile?viewProfile=&amp;key=16829383"/>
+			<membership site="livejournal.com" exists="true"/>
+			<membership site="multiply.com" exists="true"/>
+			<membership site="myspace.com" exists="true"/>
+			<membership site="myyearbook.com" exists="true"/>
+			<membership site="perfspot.com" exists="true"/>
+			<membership site="plaxo.com" exists="true"/>
+			<membership site="ringo.com" exists="true"/>
+			<membership site="tickle.com" exists="true"/>
+			<membership site="twitter.com" exists="true"/>
+			<membership site="yelp.com" exists="true"/>
+		</primary>
+		<supplemental>
+			<membership site="rapleaf.com" exists="true"/>
+		</supplemental>
+	</memberships>
+	<reputation>
+		<score>4</score>
+		<commerce_score>1</commerce_score>
+		<percent_positive>100.0%</percent_positive>
+		<profile_url>http://www.rapleaf.com/pub/21/Daniel-Thomas</profile_url>
+		<badges>
+			<badge type="badge1">http://www.rapleaf.com/badge1/UtUHXmTK.jpg</badge>
+			<badge type="badge2">http://www.rapleaf.com/badge2/UtUHXmTK.jpg</badge>
+			<badge type="small">http://www.rapleaf.com/sig/UtUHXmTK.jpg</badge>
+		</badges>
+	</reputation>
+</person>
